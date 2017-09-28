@@ -1,0 +1,53 @@
+body{
+
+    display: grid;
+       background-color: #fff;
+    grid-auto-columns: 1fr 2fr 1fr;
+    grid-gap: 1em;
+    justify-content: inherit;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: solid;
+}
+
+header{
+   padding: 10px;
+    grid-auto-rows: minmax(5vh, auto);
+    grid-column: 1/10;
+    }
+header h1{ font-family: "Franklin Gothic Medium";
+    font-size: 77px;
+    color: yellow;
+}
+nav{text-decoration: none;
+    padding: 10px;
+    grid-auto-rows: minmax(5vh, auto);
+    grid-column: 1/10;
+
+}
+a{  text-decoration: none;
+    color: chartreuse;
+    font-size: 70px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+
+}
+section {
+    background-color: #89D4C5;
+    grid-auto-rows: minmax(70%,auto);
+    grid-column: 1/4;
+    grid-row: 3/30;
+}
+
+aside{
+    background-color: #C5DA6B;
+    grid-auto-rows: minmax(30%,auto);
+    grid-row: 3/30;}
+footer{
+    background-color: #dddddd;
+    grid-auto-rows: minmax(50px,auto);}
+
