@@ -1,7 +1,7 @@
-body{
+body, main{
 
     display: grid;
-       background-color: #fff;
+    background-color: #fff;
     grid-auto-columns: 1fr 2fr 1fr;
     grid-gap: 1em;
     justify-content: inherit;
@@ -10,7 +10,11 @@ body{
     border-radius: 10px;
     border: solid;
 }
+main{   grid-column: 1/10;
 
+
+
+}
 header{
    padding: 10px;
     grid-auto-rows: minmax(5vh, auto);
